@@ -1,0 +1,8 @@
+/vendor/
+/bin/
+.bundle/
+Gemfile.lock
+pkg/
+spec/reports/
+*.png
+*.pdf
