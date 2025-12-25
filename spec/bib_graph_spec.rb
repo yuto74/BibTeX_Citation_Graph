@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require "spec_helper"
+
 RSpec.describe BibGraph::GraphProcessor do
   it "builds a tree hash from valid DAG data" do
     data = { "A" => ["B", "C"], "B" => ["D"], "C" => [], "D" => [] }
